@@ -20,7 +20,7 @@ class CalendarController extends Controller
         $task = array();
         $taskName['tasks'] = array();
 
-        foreach ($request->input('name') as $key => $value) {
+        foreach ($request->input('tasks') as $key => $value) {
             array_push($task, new Task(array('name' => $value)));
         }
 
