@@ -5,7 +5,7 @@ define({ "api": [
     "title": "Create calendar with tasks",
     "sampleRequest": [
       {
-        "url": "http://52.212.191.40/API/api/public/index.php/api/v1/calendar"
+        "url": "http://52.212.191.40/Lumen/public/index.php/api/v1/calendar"
       }
     ],
     "name": "Ceate_calendar_with_tasks",
@@ -67,7 +67,7 @@ define({ "api": [
     "title": "Get days with tasks",
     "sampleRequest": [
       {
-        "url": "http://52.212.191.40/API/api/public/index.php/api/v1/calendarByDate"
+        "url": "http://52.212.191.40/Lumen/public/index.php/api/v1/calendarByDate"
       }
     ],
     "name": "Get_days_with_tasks_from_selected_interval",
@@ -122,7 +122,7 @@ define({ "api": [
     "title": "Mark task as completed",
     "sampleRequest": [
       {
-        "url": "http://52.212.191.40/API/api/public/index.php/api/v1/task/{id}"
+        "url": "http://52.212.191.40/Lumen/public/index.php/api/v1/task/{id}"
       }
     ],
     "name": "Mark_task_as_completed",
